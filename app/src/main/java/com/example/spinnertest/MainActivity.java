@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
         lvTest = findViewById(R.id.listViewTest);
 
-        Data d1 = new Data("google", 1, R.drawable.ic_launcher_background);
-        Data d2 = new Data("google", 2,R.drawable.ic_launcher_background);
-        Data d3= new Data("google", 23,R.drawable.ic_launcher_background);
+        Data d1 = new Data("google", "2", R.drawable.ic_launcher_background);
+        Data d2 = new Data("google", "3",R.drawable.ic_launcher_background);
+        Data d3= new Data("google", "4",R.drawable.ic_launcher_background);
 
         list.add(d1);
         list.add(d2);
